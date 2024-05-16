@@ -15,10 +15,11 @@ public class ForEx11 {
 			b = s.nextInt();
 
 			sum = a + b;
-			System.out.println(sum);
+
 			if (a == 0 && b == 0) {
 				break;
 			}
+			System.out.println(sum);
 		}
 
 		s.close();
